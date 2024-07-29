@@ -3,7 +3,7 @@
 # 1. listing all the files in directory
 
 echo "printing all files in directory"
-ls -a
+./tree.sh
 echo "________________________________________________________________________________________________"
 echo 
 

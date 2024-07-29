@@ -1,16 +1,16 @@
 #!/bin/sh
 
 echo "enter name"
-read name
+name="$NAME"
 
 echo "enter contact"
-read contact
+contact=$CONTACT
 
 echo "enter email"
-read email
+email=$EMAIL
 
 echo "enter gender"
-read gender
+gender=$GENDER
 
 #case ${gender} in
 #	male)
@@ -28,8 +28,9 @@ read gender
 #		read gender
 #		;;
 #esac
+echo $name $contact $email $gender
 
-if [ -z ${name} ] || [ -z ${contact} ] || [ -z ${email} ] || [ -z ${gender} ]
+if [ -z "${name}" ] || [ -z ${contact} ] || [ -z ${email} ] || [ -z ${gender} ]
 then
 	exit 0
 else
@@ -40,4 +41,6 @@ else
 		echo "email:${email}"
 		echo "Gender:${gender}"
 	} > "${output}"
+
 fi
+cat output.txt

@@ -1,0 +1,14 @@
+version: '3.1'
+services:
+  container_1:
+    build: .
+    environment:
+      NAME: "Manjunadh"
+      CONTACT: "1234567890"
+      EMAIL: "abc@mail"
+      GENDER: "male"
+      DIRECTORY_DELETE: ABC
+    #VALUE FOR PRINTING NO. BETWEEN 0 AND N
+      VALUE: "9"
+      LIST: /assignment
+

@@ -7,7 +7,7 @@ dir="$1"
 until [ -d ${dir} ]
 do
 	echo "enter a valid directory path"
-	read dir
+	dir=$LIST
 	if [ ! -d ${dir} ]
 	then
 		echo "try again"

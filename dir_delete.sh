@@ -2,7 +2,7 @@
 
 #taking directory name from user
 echo "enter the directory name."
-read dir
+dir=$DIRECTORY_DELETE
 curr_dir=$(pwd)
 
 #checking if that directory exists

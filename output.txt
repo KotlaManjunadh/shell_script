@@ -1,4 +1,4 @@
-Name:a
-Contact:b
-email:c
-Gender:d
+Name:manju
+Contact:9808
+email:kamdma
+Gender:male

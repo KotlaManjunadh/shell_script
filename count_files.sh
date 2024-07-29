@@ -2,11 +2,11 @@
 
 
 #taking input from user
-dir="$1"
+dir=$(pwd)
 
 #initiating counting
 count=0
-for i in $(dir)
+for i in ${dir}/*
 do
 	if [ -f ${i} ]
 	then

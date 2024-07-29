@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "enter a value"
-read value
+value=$VALUE
 a=1
 while [ $a -lt $value ]
 do 
